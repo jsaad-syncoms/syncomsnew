@@ -1,0 +1,14 @@
+Resources:
+I'm trying to learn how to animate svg: I plan to animate the bcg. For mobile there is no svgs: they just go one under another.
+
+Starting Page:
+Still not sure abt the image.
+
+SynCloud:
+I exported clouds and sparkles in various combinations. I was thinking to animate:
+mobile: cloud 'hovering', sparkle gently hovering around, kinda like here: https://www.syncoms.co.uk/?page_id=2366&preview=true
+pc: cloud NOT hovering bc it'd be too much, no? we can animate sparkles tho
+
+Lmk what you think, 
+Cheers,
+B.

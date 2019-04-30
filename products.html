@@ -9,49 +9,80 @@
     </head>
     
     <body>
-        <div id="topbar"><div class="logo"><img src="resources/images/syncoms-logo-correct3-300x80.png" /></div></div>
+        <div id="topbar">
+            <div class="logo"><img src="resources/images/syncoms-logo-correct3-300x80.png" /></div>
+            <nav class="navbar" id="navbar">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a class="active" href="/products.html">Products</a></li>
+                    <li><a href="/industries.html">Industries</a></li>
+                    <li><a href="/printers.html">Printers</a></li>
+                    <li><a href="/marketers.html">Marketers</a></li>
+                    <li><a href="/syncloud.html">SynCloud</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/demo.html">Demo</a></li>
+                </ul>
+            </nav>
+            
+            <div class="burgerBtn" id="burgerBtn">
+                <div class="burgerLine"></div>
+                <div class="burgerLine"></div>
+                <div class="burgerLine"></div>
+            </div>
+            
+            <nav class="mobNav noDisplay noOpacity" id="mobNav">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a class="active" href="/products.html">Products</a></li>
+                    <li><a href="/industries.html">Industries</a></li>
+                    <li><a href="/printers.html">Printers</a></li>
+                    <li><a href="/marketers.html">Marketers</a></li>
+                    <li><a href="/syncloud.html">SynCloud</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/demo.html">Demo</a></li>
+                </ul>
+            </nav>
+        </div>
         
         <div id="parallax-container">
             <div id="parallax1" class="parallax-div"></div>
-            <div id="parallax2" class="parallax-div">
-<!--
-                <div class="banner-content">
-                    <h1>SynCloud:</h1>
-                    <h1>The Next Generation Print</h1>
-                    <h1>Solution Offered by Syncoms</h1>
-                    
-                    <div class="border"></div>
-                    <div id="discover" class="discover" onmouseover="showShadow()"><span>Discover More</span></div>
-                    <div id="shadow" class="shadow"></div>
-                </div>
--->
-            </div>
-            <div id="parallax3" class="parallax-div"><div class="clouds cloud1"><img src="resources/images/Products.pc.clouds2.png" /></div></div>
+            <div id="parallax2" class="parallax-div"></div>
+            <div id="parallax3" class="parallax-div"><div class="clouds cloud1"><img src="SyncomsUpdatedReadyToGoLive/SyncomsUpdatedReadyToGoLive/SVG/Products.pc.cloud1.svg" /></div></div>
             <div id="parallax4" class="parallax-div"></div>
-            <div id="parallax5" class="parallax-div"><div class="clouds cloud2"><img src="resources/images/Products.pc.clouds1.png" /></div></div>
+            <div id="parallax5" class="parallax-div"><div class="clouds cloud2"><img src="SyncomsUpdatedReadyToGoLive/SyncomsUpdatedReadyToGoLive/SVG/Products.pc.cloud2.svg" /></div></div>
             <div id="parallax6" class="parallax-div">
                 <div class="banner-content">
-                    <h1>SynCloud:</h1>
-                    <h1>The Next Generation Print</h1>
-                    <h1>Solution Offered by Syncoms</h1>
+                    <div class="h1s">
+                        <h1>SynCloud:</h1>
+                        <h1>The <strong class="orangeTxt">Next Generation</strong> Print</h1>
+                        <h1>Solution Offered by Syncoms</h1>
+                    </div>
                     
-                    <div id="border" class="border"></div>
-                    <div id="discover" class="discover"><span>Discover More</span></div>
-                    <div id="shadow" class="shadow"></div>
-                    <div id="shine" class="shine"></div>
+                    <div class="discoverBtn">
+                        <div id="border" class="border"></div>
+                        <div id="discover" class="discover"><span>Discover More</span></div>
+                        <div id="shadow" class="shadow"></div>
+                        <div id="shine" class="shine"></div>
+                    </div> 
                 </div>
-                <div class="arrow"><img src="resources/images/Arrow-actual-size.png" /></div></div>
+                <div class="arrow"><img src="resources/images/Arrow-actual-size.png" /></div>
+            </div>
         </div>
         
         <div id="content">
+            <div class="pageContent">
+                <img class="desktopView" src="resources/images/products.jpg">
+                <img class="mobileView" src="resources/images/m.products.jpg">
+            </div>
 <!--
+
             <div class="border"></div>
             <div class="discover"></div>
             <div class="shadow"></div>
 -->
         </div>
         
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="resources/js/main.js"></script>
     </body>
 </html>
